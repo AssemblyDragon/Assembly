@@ -1,0 +1,5 @@
+MOV BL, 50H
+MOV CL, 23H    
+MOV AL, BL
+SBB AL, CL
+HLT
