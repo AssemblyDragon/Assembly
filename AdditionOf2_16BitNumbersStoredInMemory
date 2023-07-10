@@ -1,0 +1,9 @@
+MOV SI, 3000H;
+MOV DI, 3002H;
+MOV BX, [SI];
+MOV CX, [DI];
+MOV AX, BX;
+ADC AX, CX;
+INC DI;
+MOV [DI], AX;
+HLT;
